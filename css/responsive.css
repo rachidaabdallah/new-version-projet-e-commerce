@@ -1,0 +1,385 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 330px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+  }
+
+  body {
+    line-height: 1;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    right: 8px;
+    top: -64px;
+  }
+
+  p,
+  h2.n {
+    font-size: 2rem;
+    padding-top: 25px;
+  }
+
+  h2,
+  h2.n {
+    margin-top: 28px;
+    margin-bottom: 15px;
+    padding-top: 0;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 11px;
+    margin-top: 10px;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  /*  navigation  */
+  nav {
+    height: 52px;
+  }
+
+  a {
+    margin: 5px;
+    font-size: 2rem;
+  }
+
+  .main_nav {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo_nav img {
+    height: 24px;
+    margin-left: 10%;
+    width: 100%;
+  }
+
+  .logo_nav,
+  .main_nav {
+    align-self: center;
+    display: flex;
+  }
+
+  ul.links_nav {
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .fa-user {
+    color: #ECFE18;
+  }
+
+  .bouton_h2 {
+    display: none;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .bottomFooter {
+    display: none;
+  }
+
+  .left .overlay_favoris,
+  .middle .overlay_favoris,
+  .right .overlay_favoris {
+    left: 0px;
+  }
+
+  .fa-heart,
+  .fa-user,
+  .fa-shopping-basket,
+  .fa-bars {
+    height: 24px;
+  }
+
+  .fa-heart, .fa-user {
+    margin-right: 15px;
+  }
+
+  .fa-shopping-basket, .fa-user, .fa-heart {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  .links_nav .icons_links>a {
+    justify-content: flex-start;
+  }
+
+  li a>.fa-home {
+    display: none;
+  }
+
+  /* menu burger */
+  .toggle_menu {
+    color: black;
+    display: block;
+    font-size: 1.4rem;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  /*liens de la navigation pour ul links_nav*/
+  .btn_lien {
+    display: none;
+  }
+
+  /* fin  nav  */
+  /* début footer */
+  /* formulaire *** */
+  form {
+    display: none;
+  }
+
+  .col {
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .infos {
+    display: flow-root;
+    margin-top: 30px;
+  }
+
+  .infos a {
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  .info_responsive {
+    margin-bottom: 30px;
+  }
+
+  .help_responsive {
+    margin-bottom: 30px;
+  }
+
+  li .packagingFree .truck {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .secur_paie,
+  .truck,
+  .packagingFree {
+    width: 60%;
+    margin-top: 40px;
+  }
+
+  .camion {
+    margin-left: 1%;
+  }
+
+  .truck,
+  .secur_paie,
+  .packagingFree {
+    margin-left: 50px;
+    margin-right: 25px;
+  }
+
+  .secur_paie_p {
+    margin-top: 0%;
+  }
+
+  /* masque les 2 autres moyens de Paiement */
+  .card,
+  .cardpaypal {
+    display: none;
+  }
+
+  .secur_paie,
+  .secur_paie_p p {
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: 10%;
+  }
+
+  .packagingFree p,
+  .packagingFree {
+    font-size: 1rem;
+  }
+
+  .emballages {
+    margin-right: 5px;
+  }
+
+  /*les reseaux */
+  .r {
+    color: #E10E0EB8;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0;
+  }
+
+  .col.reseauxTata {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .siteTATA {
+    margin-right: 18px;
+    margin-top: 0;
+    width: 83px;
+  }
+
+  .r, .fbk, .instagram, .tweet {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .fbk,
+  .instagram,
+  .tweet {
+    width: 40px;
+  }
+
+  span {
+    display: none;
+  }
+
+  /* - fin du footer  */
+  /*  categories */
+  .overlay_cat h3 {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    top: 77px;
+  }
+
+  .cat_responsive {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 0;
+  }
+
+  .img_cat,
+  .img_cat_ch,
+  .img_cat_d {
+    height: 204px;
+    width: 235px;
+    margin: 20px;
+  }
+
+  .img_cat_d {
+    margin-bottom: 30px;
+  }
+
+  .overlay h3 {
+    display: none;
+  }
+
+  /* header */
+  .background {
+    padding-top: 277px;
+  }
+
+  .text_header img {
+    bottom: 141px;
+    left: 0;
+    position: relative;
+    width: 91%;
+    opacity: 0.9;
+  }
+
+  /* partie produits */
+  .produits {
+    display: inline-block;
+    padding-bottom: 0;
+  }
+
+  .produits img {
+    margin-top: 4%;
+    width: 100%;
+  }
+
+  /* masque les overlay favoris sur les produits */
+  .fa-heart.favoris {
+    display: none;
+  }
+
+  .overlay_favoris {
+    Background-color: rgba(255, 255, 255, 0);
+    border-radius: 0;
+    height: 0;
+    position: absolute;
+    width: 0;
+  }
+
+  article {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+    margin-top: 2px;
+    width: 50%;
+  }
+
+  p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    text-align: center;
+  }
+
+  .price1,
+  .price2,
+  .price3,
+  .detailsprice1,
+  .detailsprice2,
+  .detailsprice3 {
+    font-size: 1rem;
+  }
+
+  .detailsprice1,
+  .detailsprice2,
+  .detailsprice3 {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
+
+  /* bande promotion */
+  .promo .banniere {
+    font-size: 1rem;
+    height: 110px;
+    text-align: center;
+  }
+
+  .banniere h2 {
+    font-size: 1.3rem;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  h2 a {
+    margin-top: 15px;
+  }
+
+  /* bouton promo */
+  .call {
+    display: inline-block;
+    font-size: 1rem;
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+}
